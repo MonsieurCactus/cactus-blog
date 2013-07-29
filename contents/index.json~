@@ -1,0 +1,30 @@
+{
+	"name": "John D Mangual",
+	"description": "<p>Hello world.</p><p>I am a 'data scientist' interested visualization and statistics. In order words, I like to draw pictures in JavaScript.</p><p>I went to <a href='http://www.princeton.edu/'>Princeton</a>, <a href='http://www.ipmu.jp/'>U Tokyo</a> and <a href='http://www.math.ucsb.edu/'>UC Santa Barbara</a>.  I conjectured a similarity between the Math you see in Quantum Mechanics to that of Computer Graphics, Time-Series and Algorithms.</p><p>It's hard to explain to people why I enjoy math - a subject that people hate & misunderstand.  Learning to code has changed how I reach out to other people, scientific or not.</p><p>Please check out my <a href='#github' class='link'>GitHub</a> repositories.</p><p>My online name is <b>MonsieurCactus</b>. I'm pretty sure you'll be amazed by the things I publish on my <a target='_blank' class='link' href='http://rafael.pt/blog/'>personal blog</a> as well.</p><p>E-mail: <a target='_blank' class='link' href='mailto:john.mangual@gmail.com'>john.mangual@gmail.com</a>.</p>",
+	"links": [
+		{ 
+			"url": "", 
+			"description": "Blog" 
+		}, 
+		{ 
+			"url": "http://twitter.com/monsieurcactus" , 
+			"description": "Twitter" 
+		}, 
+		{ 
+			"url": "http://www.linkedin.com/profile/view?id=32305634", 
+			"description": "LinkedIn" 
+		}, 
+		{ 
+			"url": "http://github.com/monsieurcactus", 
+			"description": "GitHub" 
+		},
+		{ 
+			"url": "http://github.com/monsieurcactus", 
+			"description": "AngelList" 
+		},
+		{ 
+			"url": "http://front.math.ucdavis.edu/search?a=mangual", 
+			"description": "arXiv" 
+		}
+	]
+}

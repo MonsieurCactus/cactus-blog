@@ -1,26 +1,11 @@
 {
-  "name": "Rafael Albuquerque",
+  "name": "John D Mangual",
   "description": "<p>Nothing much to show off, but working on exciting stuff at the moment.</p><p>Stay tuned!</p>",
   "projects": [
     { 
-      "url": "http://rafael.pt", 
-      "site": "rafael.pt",
-      "description": "This useless landing page" 
-    }, 
-    { 
-      "url": "http://canileave.com/#new+york", 
-      "site": "canileave.com",
-      "description": "Can I leave? — Real-time Weather Report" 
-    }, 
-    { 
-      "url": "http://www.responsly.com", 
-      "site": "Responsly",
-      "description": "Server monitoring service for people." 
-    }, 
-    { 
-      "url": "https://chrome.google.com/webstore/detail/gmail-checker-lite/ehecgbjlfigjeeapplnmliblgpkjaeme", 
-      "site": "Gmail Checker Lite",
-      "description": "A Chrome extension that checks your email for new messages." 
+      "url": "...", 
+      "site": "...",
+      "description": "..." 
     }
   ] 
 }

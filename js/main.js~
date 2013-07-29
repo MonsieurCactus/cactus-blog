@@ -119,11 +119,12 @@ function Terminal()
         {
 
           /* github info parse */
-          if (args == 'github'){
+          if (args == 'github')
+          {
             $.get('templates/'+args+'.tpl', function(template){
-				$.getJSON('https://api.github.com/users/monsieurcactus/repos', function(github){
+              $.getJSON('https://api.github.com/users/monsieurcactus/repos', function(github){
 
-				var repositories = new Array();
+                var repositories = new Array();
 
                 /* go through each repo */
                 $.each(github, function(i,obj){
@@ -147,15 +148,12 @@ function Terminal()
 
             this.__output('loading "'+args+'"... <br>page "'+args+'" loaded! type `ls` to list all pages available');
 
-          } // end github
+          }
+        }
 
-	if (args == 'math_blog'){	this.__output('page "'+args+'" under construction...'); } // end math_blog
-	if (args == 'go_blog'){  	this.__output('page "'+args+'" under construction...'); } // end go_blog
-	if (args == 'tech_blog'){  	this.__output('page "'+args+'" under construction...'); } // end tech_blog
-
-        } // end dynamic
-      }  // end args
-      else {
+      }
+      else
+      {
         this.__output('loading "'+args+'"... <br>error! page "'+args+'" not found! type `ls` to list all pages available');
       }
     }
