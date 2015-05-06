@@ -21,8 +21,8 @@ function Terminal()
 
   /* pages available to display */
   var pages_available = {
-    static: ['index', 'projects'],
-    dynamic: ['github', 'go_blog', 'math_blog', 'tech_blog']
+    static: ['index', 'projects', 'go_blog', 'math_blog', 'tech_blog', 'viz_blog','list_of_crap'],
+    dynamic: ['github']
   };
 
 
@@ -93,7 +93,6 @@ function Terminal()
 
     if (args)
     {
-
       /* if page exists */
       if (_page_exists)
       {
@@ -101,6 +100,7 @@ function Terminal()
         /* if page is static */
         if (_page_type == 'static')
         {
+			//console.log(args);
           $.get('templates/'+args+'.tpl', function(template){
             $.getJSON('contents/'+args+'.json', function(data){
               $('.container').html(Mustache.to_html(template, data));
@@ -149,9 +149,7 @@ function Terminal()
 
           } // end github
 
-	if (args == 'math_blog'){	this.__output('page "'+args+'" under construction...'); } // end math_blog
-	if (args == 'go_blog'){  	this.__output('page "'+args+'" under construction...'); } // end go_blog
-	if (args == 'tech_blog'){  	this.__output('page "'+args+'" under construction...'); } // end tech_blog
+
 
         } // end dynamic
       }  // end args
